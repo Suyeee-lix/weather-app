@@ -6,9 +6,10 @@ h1 {
   font-weight: 500;
   line-height: 1.2;
 }
-li {
+li:first-letter {
   display: block;
   margin: 0 auto;
+  text-transform: capitalize;
 }
 ul {
   padding: 0;

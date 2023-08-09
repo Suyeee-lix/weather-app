@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Weather app</title>
 
-
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
 
 </head>
@@ -26,32 +26,31 @@
 
                     <img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="cloud" class="float-left">
 
-                    <strong class="temp">
+                    <strong class="temp" id="temperature">
                         23 </strong>
                     <span class="units">°C|°F </span>
 
                 </div>
                 <ul>
                     <li>
-                        Humidity:83%
+
+                        Humidity: <span id="humidity"></span>%
                     </li>
                     <li>
-                        Wind:19 km/h
-                    </li>
-                    <li>
-                        Precipitation:7%
+                        Wind:<span id="wind"></span>km/h
                     </li>
 
                 </ul>
             </div>
-            <div class="col-3">
+            <div class=" col-3">
                 <h3> Weather</h3>
                 <ul>
-                    <li>
-                        Tuesday 20:26
+                    <li id="date">
+
                     </li>
-                    <li>
-                        Cloudy
+                    <li id="description">
+
+
 
                     </li>
 
@@ -62,7 +61,7 @@
     </div>
     <hr />
     <small>
-        <a href="https://github.com/Suyeee-lix/weather-app" class="link">Open source code </a>by Su Yee
+        <a href="https://github.com/Suyeee-lix/first-weather-app" class="link">Open source code </a>by Su Yee
     </small>
 
     </div>
