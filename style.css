@@ -48,4 +48,10 @@ img {
 
   position: relative;
 }
-
+.active {
+  text-decoration: none;
+  color: rgb(32, 33, 36);
+}
+.active:hover {
+  cursor: default;
+}
