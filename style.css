@@ -6,14 +6,15 @@ h1 {
   font-weight: 500;
   line-height: 1.2;
 }
-li:first-letter {
+li {
   display: block;
   margin: 0 auto;
+}
+li:first-letter {
   text-transform: capitalize;
 }
 ul {
   padding: 0;
-  margin: 0;
 }
 small {
   margin-left: 20px;
