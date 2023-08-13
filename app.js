@@ -83,3 +83,8 @@ let fahrenheitLinkElement = document.querySelector("#fahrenheit-link");
 fahrenheitLinkElement.addEventListener("click", displayFahrenheitTemperature);
 let celsiusLinkElement = document.querySelector("#celsius-link");
 celsiusLinkElement.addEventListener("click", displayCelsiusTemperature);
+
+
+function displayWeatherForecast(){
+  
+}
